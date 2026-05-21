@@ -12,3 +12,9 @@ form.onsubmit = function () {
 	}
 	return false;
 }
+
+var clearBtn = document.getElementById("clear");
+clearBtn.onclick = function () {
+	document.getElementById("u_num").value = "";
+	document.getElementById("result").innerHTML = "Result will appear here.<br>";
+}

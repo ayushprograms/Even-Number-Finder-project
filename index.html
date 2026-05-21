@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Even Number Finder</title>
 	<link rel="stylesheet" href="style.css">
 </head>
@@ -17,14 +18,22 @@
 		</div>
 	</nav>
 
-	<h1>Even Number Finder</h1>
-	<h3>Study Material</h3><h5>Max value = 3000 else, DEVICE CRASH!</h5>
-	<form id="frm">
-		<input type="text" placeholder="Enter Number" id="u_num"><br>
-		<input type="submit" id="btn">
-	</form>
+	<main class="page-content">
+		<section class="hero">
+			<h1>Even Number Finder</h1>
+			<h3>Study Material</h3>
+			<h5>Max value = 3000 else, DEVICE CRASH!</h5>
+		</section>
 
-	<p id="result"><__________Result___________><br><br></p>
+		<section class="form-area">
+			<form id="frm">
+				<input type="text" placeholder="Enter Number" id="u_num">
+				<input type="submit" id="btn" value="Find Even Numbers">
+				<button type="button" id="clear">Clear</button>
+			</form>
+			<p id="result">Result will appear here.<br></p>
+		</section>
+	</main>
 
 <footer>
 	<a href="https://youtube.com/@ayushtech_code?si=c-u6Lh8SeYT0eoH4" id="ayushtech">YouTube: Ayush Tech</a>
